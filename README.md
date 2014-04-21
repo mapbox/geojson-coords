@@ -1,3 +1,5 @@
+![](http://img.shields.io/travis/mapbox/geojson-coords.svg?style=flat)
+
 # geojson-coords
 
 Extract coordinates from [GeoJSON](http://geojson.org/).
