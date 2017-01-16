@@ -1,4 +1,4 @@
-module.exports = function flatten(list, depth) {
+module.exports = function flatten(list) {
     return _flatten(list);
 
     function _flatten(list) {
