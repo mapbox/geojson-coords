@@ -1,5 +1,5 @@
 {
-  "name": "geojson-coords",
+  "name": "@mapbox/geojson-coords",
   "version": "0.0.0",
   "description": "return all coordinates from a geojson object",
   "main": "index.js",
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/mapbox/geojson-coords",
   "devDependencies": {
-    "tap": "~0.4.8"
+    "tap": "~9.0.3"
   },
   "dependencies": {
-    "geojson-normalize": "0.0.0",
-    "geojson-flatten": "~0.1.0"
+    "@mapbox/geojson-normalize": "0.0.1",
+    "geojson-flatten": "~0.2.1"
   }
 }

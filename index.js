@@ -1,4 +1,4 @@
-var geojsonNormalize = require('geojson-normalize'),
+var geojsonNormalize = require('@mapbox/geojson-normalize'),
     geojsonFlatten = require('geojson-flatten'),
     flatten = require('./flatten');
 
