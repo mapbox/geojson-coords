@@ -6,7 +6,7 @@ Extract coordinates from [GeoJSON](http://geojson.org/).
 
 ## install
 
-    npm install --save geojson-coords
+    npm install --save @mapbox/geojson-coords
 
 ## api
 
@@ -19,7 +19,7 @@ and expands point coordinate arrays.
 ## example
 
 ```js
-var geojsonCoords = require('geojson-coords');
+var geojsonCoords = require('@mapbox/geojson-coords');
 
 geojsonCoords({
     "type": "GeometryCollection",
