@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "@mapbox/geojson-normalize": "0.0.1",
-    "geojson-flatten": "~0.2.1"
+    "geojson-flatten": "=0.2.1"
   }
 }
