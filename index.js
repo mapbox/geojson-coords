@@ -1,5 +1,5 @@
 var geojsonNormalize = require('@mapbox/geojson-normalize'),
-    geojsonFlatten = require('geojson-flatten'),
+    geojsonFlatten = require('geojson-flatten').default,
     flatten = require('./flatten');
 
 module.exports = function(_) {
