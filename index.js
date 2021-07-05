@@ -2,6 +2,8 @@ var geojsonNormalize = require('@mapbox/geojson-normalize'),
     geojsonFlatten = require('geojson-flatten'),
     flatten = require('./flatten');
 
+if (!(geojsonFlatten instanceof Function)) geojsonFlatten = geojsonFlatten.default;
+
 module.exports = function(_) {
     if (!_) return [];
     var normalized = geojsonFlatten(geojsonNormalize(_)),
