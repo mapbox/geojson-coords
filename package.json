@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/geojson-coords",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "return all coordinates from a geojson object",
   "main": "index.js",
   "directories": {
