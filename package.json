@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mapbox/geojson-coords.git"
+    "url": "git+https://github.com/mapbox/geojson-coords.git"
   },
   "keywords": [
     "geojson",
@@ -31,5 +31,12 @@
   "dependencies": {
     "@mapbox/geojson-normalize": "0.0.1",
     "geojson-flatten": "^1.0.4"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "flatten.js"
+  ]
 }
